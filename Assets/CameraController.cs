@@ -1,25 +1,3 @@
-/*using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CameraController : MonoBehaviour
-{
-    public Transform target; // The target object to follow
-    public float smoothTime = 0.3f; // The time it takes for the camera to catch up to the target
-    public Vector3 offset = new Vector3(0f, 2f, -5f); // The initial position of the camera relative to the target
-
-    private Vector3 velocity = Vector3.zero;
-
-    private void LateUpdate()
-    {
-        // Calculate the target position of the camera
-        Vector3 targetPosition = target.position + offset;
-
-        // Smoothly move the camera to the target position
-        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
-    }
-}
-*/
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
